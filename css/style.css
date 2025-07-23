@@ -27,9 +27,20 @@ ul{
     padding: 15px 20px;
 }
 
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
 h2{
     font-size: 2rem;
     padding-bottom: 60px;
+}
+
+h3{
+    font-size: 1.4rem;
+    padding-bottom: 40px;
 }
 
 h4{
@@ -128,11 +139,6 @@ h4{
 
 /* Regole scritte Jumbo */
 
-h1{
-    font-size: 4rem;
-    font-weight: 900;
-    padding-bottom: 40px;
-}
 
 .jumbo-photo{
     width: 100%;
@@ -226,8 +232,6 @@ div.small-box > *{
 
 .item{
     width: calc((100% / 3) - (80px / 3));
-    min-height: 400px;
-    border: 1px solid gray;
 }
 
 .photo{
