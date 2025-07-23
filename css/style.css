@@ -9,7 +9,6 @@
 
 body{
     font-family: "Open Sans", sans-serif;
-    font-size: 0.9rem;
 }
 
 ul{
@@ -26,6 +25,18 @@ a{
     padding: 5px 15px;
     color: white;
 }
+
+.large{
+    padding: 15px 20px;
+}
+
+/* Regole Container */
+
+.container-jumbo{
+    width: 75%;
+    margin: 0 auto;
+}
+
 
 /* Regole Header */
 
@@ -69,3 +80,46 @@ header{
 }
 
 
+/* Regole Jumbo */
+
+.main-header{
+    background-color: #C1D6E7;
+    height: 650px;
+    padding-top: 60px;
+}
+
+.jumbo{
+    width: 100%;
+}
+
+.jumbo-flex{
+    display: flex;
+}
+
+.small-box{
+    width: 30%;
+}
+
+.big-box{
+    width: 70%;
+}
+
+/* Regole scritte Jumbo */
+
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.jumbo-photo{
+    width: 100%;
+}
+
+div.small-box > *{
+    padding-bottom: 40px;
+}
+.fa-arrow-down{
+    font-size: 3rem;
+    padding-top: 20px;
+}
