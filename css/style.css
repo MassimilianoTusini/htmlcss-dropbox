@@ -230,6 +230,12 @@ div.small-box > *{
     border: 1px solid gray;
 }
 
+.photo{
+    display: inline-block;
+    width: 100%;
+
+}
+
 
 /* Regole Footer */
 
