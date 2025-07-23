@@ -33,18 +33,25 @@ a{
 /* Regole Container */
 
 .container-jumbo{
-    width: 75%;
+    max-width: 75%;
     margin: 0 auto;
+}
+
+.main-container{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 60px;
 }
 
 
 /* Regole Header */
 
-header{
+.header-fix{
     height: 60px;
     position: fixed;
     width: 100%;
     z-index: 1000;
+    background-color: white;
 }
 
 .header-flex{
@@ -84,8 +91,8 @@ header{
 
 .main-header{
     background-color: #C1D6E7;
-    height: 650px;
-    padding-top: 60px;
+    height: 710px;
+    padding-top: 120px;
 }
 
 .jumbo{
