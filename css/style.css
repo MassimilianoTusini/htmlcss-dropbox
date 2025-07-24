@@ -373,3 +373,30 @@ footer a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* Prova Bonus */
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.dropdown-content a:hover{
+  background-color: #0160FE;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
