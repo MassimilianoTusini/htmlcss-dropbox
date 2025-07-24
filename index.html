@@ -19,13 +19,14 @@
 <body>
     <!-- Header -->
     <header>
-      <div class="header-fix">
+      <div id="header-fix">
         <div class="header-flex">
             <!-- Barra di navigazione -->
             <div class="nav-left">
-            <img src="img/logo-small.png" alt="logo Dropbox" class="drop-logo">
+            <!-- <img src="img/logo-small.png" alt="logo Dropbox" class="drop-logo"> -->
               <nav>
                 <ul>
+                    <li><a href="#" class="drop-logo"><img src="img/logo-small.png" alt="logo Dropbox"></a></li>
                     <li><a href="#" class="nav-link">Perchè Dropbox</a></li>
                     <li><a href="#" class="nav-link">Funzioni</a></li>
                     <li><a href="#" class="nav-link">Piani e Prezzi</a></li>
@@ -38,7 +39,7 @@
                     <li><a href="#" class="nav-link">Supporto</a></li>
                     <li><a href="#" class="nav-link">Contatta l'ufficio vendite</a></li>
                     <li><a href="#" class="nav-link">Accedi</a></li>
-                    <li><a href="#" class="blue-button">Inizia</a></li>   
+                    <li><a href="#" class="button">Inizia</a></li>   
                 </ul>
 
             </div>
@@ -47,7 +48,7 @@
 
       <!-- Aggiunta Jumbotron -->
 
-      <div class="main-header">
+      <div id="main-header">
         <div class="container">
             <!-- Contenuto Jumbotron -->
             <div class="jumbo">
@@ -59,11 +60,17 @@
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizare il flusso di lavoro esistente.</p>
                     <nav>
                       <ul>
-                        <li><a href="#" class="blue-button large">Inizia la tua prova gratuita</a></li>
+                        <li><a href="#" class="button large">Inizia la tua prova gratuita</a></li>
                       </ul>
                     </nav>
                     <p>Annulla in qualsiasi momento</p>
-                    <span><i class="fa-solid fa-arrow-down"></i></span>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#Plan"><i class="fa-solid fa-arrow-down"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
                   </div>
                   <!-- Contenuto immagine -->
                   <div class="big-box">
@@ -81,29 +88,73 @@
         <div class="main-container">
 
         <!-- Sezione Pagamento -->
-          <section>
+          <section id="Plan">
 
             <h2>Trova il piano business che fa per te</h2>
             <span class="circle blue"></span><span>Fatturazione mensile</span>
             <span class="circle"></span><span>Fatturazione annuale</span>
 
-            <div class="display-card-flex">
+            <div id="display-card-flex">
+
                 <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-main"></div>
+                    <div class="card-header">
+                        <p><i class="fa-solid fa-user"></i>Singolo</p>
+                    </div>
+                    <div class="card-main">
+                        <h3>Professional</h3>
+                        <p><strong>&euro; 12.00</strong></p>
+                        <p class="period">/mese</p>
+                        <nav>
+                            <ul>
+                                <li class="user"><i class="fa-solid fa-user"></i> 1 Utente</li>
+                                <li class="user"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                <li class="user"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
+
                 <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-main"></div>
+                    <div class="card-header">
+                        <p><i class="fa-solid fa-users"></i> Team</p>
+                    </div>
+                    <div class="card-main">
+                        <h3>Advanced</h3>
+                        <p><strong>&euro; 18.00</strong></p>
+                        <p class="period">/utente/mese</p>
+                    </div>
                 </div>
+
                 <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-main"></div>
+                    <div class="card-header">
+                        <p><i class="fa-solid fa-building"></i>Azienda</p>
+                    </div>
+                    <div class="card-main">
+                        <h3>Enterprise</h3>
+                        <p><strong>Contattaci</strong></p>
+                        <p class="period">-</p>
+                    </div>
                 </div>
-            </div>
-            <div class="last-card">
-                <div class="card-header"></div>
-                <div class="card-main"></div>
+                     
+                <div class="card column">
+                    <div class="card-header">
+                        <p><i class="fa-solid fa-building"></i>Team</p>
+                    </div>
+                    <div class="card-main horizontal">
+                      <div class="main-large">
+                        <h3>Enterprise</h3>
+                        <p class="contact"><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                      </div>
+                      <div class="main-small">
+                        <nav>
+                      <ul>
+                        <li><a href="#" class="button large">Inizia la tua prova gratuita</a></li>
+                      </ul>
+                    </nav>
+                      </div>
+                    </div>
+                </div>
             </div> 
             
           </section>
@@ -115,7 +166,15 @@
                 <div class="big-section">
                     <img src="img/partner.png" alt="partner" class="photo">
                 </div>
-                <div class="small-section"></div>
+                <div class="small-section">
+                    <h3>Entra in contatto con un partner di Dropbox</h3>
+                    <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i toui obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#" class="button large white">Trova un partner</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
 
           </section>
