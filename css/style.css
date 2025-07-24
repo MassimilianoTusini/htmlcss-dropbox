@@ -156,7 +156,8 @@ h4{
 #main-header{
     background-color: #C1D6E7;
     padding-top: 120px;
-    height: 710px;
+    
+    
 }
 
 .jumbo{
@@ -173,6 +174,7 @@ h4{
 
 .big-box{
     width: 70%;
+    position: relative;
 }
 
 /* Regole scritte Jumbo */
@@ -180,7 +182,9 @@ h4{
 
 .jumbo-photo{
     width: 100%;
+    position: absolute;
 }
+
 
 div.small-box > *{
     padding-bottom: 40px;
